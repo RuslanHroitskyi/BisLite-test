@@ -1,0 +1,37 @@
+$bgcGrey: #e8ebf1;
+$blue: #2aacc8;
+$black: #000000;
+$white: #ffffff;
+$grey: #dfe1e5;
+$blackGrey: #363636;
+$blackShadow: #0d0707;
+$darkGrey: #626262;
+$lightGrey: #e7e7e7;
+$lightBlue: #81e4ed;
+$whiteBlue: #e8fcfe;
+
+$gradientBlue: (
+  0deg,
+  #2aacc8 0%,
+  #2aacc8 0.1%,
+  #60cede 14.9%,
+  #72dae6 50%,
+  #81e4ed 100%
+);
+
+$gutter: 15px;
+$heavy: 900;
+$lg: 960px;
+$md: 820px;
+$smMd: 770px;
+$sm: 540px;
+$xs: 420px;
+$xxs: 280px;
+
+// $gd-col: 12;
+// $gd-size: 100% / $gd-col;
+// @for $i from 1 through $gd-col {
+//   .col-#{$i} {
+//     max-width: $gd-size * $i;
+//   }
+// }

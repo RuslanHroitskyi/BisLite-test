@@ -1,0 +1,63 @@
+@import "../vars/vars";
+@import "../mixins/mixins";
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1030px;
+  width: 100%;
+  padding: 0 $gutter;
+  margin: 0 auto;
+  gap: 20px;
+  @include flex-specBet;
+}
+
+.styleNorm {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.visuallyHidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.txtUpp {
+  text-transform: uppercase;
+}
+
+.title {
+  color: $black;
+}
+
+.titleBold {
+  color: $black;
+  font-weight: bold;
+}
+
+.txt13 {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.txt14 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.txt15 {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.txt50 {
+  font-size: 50px;
+  line-height: 60px;
+}
